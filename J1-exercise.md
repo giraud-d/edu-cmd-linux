@@ -10,7 +10,7 @@ Get a terminal
 * `/home/<user>/CESI/2024-cmd-linux/exercices/J1/instructions` (as a file)
 * `/home/<user>/CESI/2024-cmd-linux/exercices/J1/my-list-of-cmd` (as a file)
 * `/home/<user>/CESI/2024-cmd-linux/exercices/J2`
-* `/home/<user>/CESI/2024-cmd-linux/exercices/J2`
+* `/home/<user>/CESI/2024-cmd-linux/exercices/J3`
 * `/home/<user>/CESI/2024-cmd-linux/note-pad`
 * `/home/<user>/CESI/2024-cmd-linux/note-pad/cmd-utils` (as a file)
 * `/home/<user>/CESI/2024-cmd-linux/note-pad/personal-notes.txt` (as a file)
@@ -40,20 +40,27 @@ Then display this file.
 * If you completed task 1, 2 and 3 you can help others.
 * How can you transform 'my-list-of-cmd' to just use one cmd to complete task 1 ? (tips : 's....t')
 
-
-# Step 2 : Afternoon
-
-## A) Create of multiples folders
+## D) Create of multiples folders
 
 Create folders : `car`, `bike`, `train` and add a `speed` and `desc` files on every folders
 
-## B) Be careful with 'rm' cmd
+## E) Be careful with 'rm' cmd
 
 * Delete 'speed' file on 'bike'
 * Delete folder 'car'
 * Then list content on `/home/<user>/CESI/2024-cmd-linux/exercices/J1/`
 
-## C) Change rigths and ownership
+# Step 2 : Afternoon
 
-...
+## A) Change rigths
 
+* Practice `chmod`
+
+## B) Basic scripts
+
+* Creation of sh scripts that redo every command of first test
+* [Advenced dcumentation](https://discord.com/channels/1281267241178103838/1294212268325605387/1294264609946996797)
+
+## C) Then group projet
+
+* "Create the best script to get bonus point"
