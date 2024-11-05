@@ -4,7 +4,7 @@ Le vendredi 11 octobre du 8h30 à 16h30
 
 
 
-## Sujets abordés
+## Sujets a aborder (fiche pédagogique)
 
 - Historique / position sur le marché
 - Concepts de base : file/user/data/processus/droits
