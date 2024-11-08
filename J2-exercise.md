@@ -35,7 +35,7 @@ Je vais essayer de tester votre script de manière inattendue.
 
 ## Bonus 2 : Exécuter les scripts de la J1
 
-Cloner le dépôt `git` suivant : `git clone https://github.com/giraud-d/edu-cmd-linux.git`
+Cloner le dépôt git suivant : `git clone https://github.com/giraud-d/edu-cmd-linux.git`
 
 # Partie 2 : Les redirections
 
@@ -61,13 +61,7 @@ Cloner le dépôt `git` suivant : `git clone https://github.com/giraud-d/edu-cmd
 
 # Partie 3 : Avec des fichiers de logs
 
-* Afficher le contenu d'un fichier très long avec `cat`
-
-[Comment trouver les fichiers volumineux sous Linux](https://www.malekal.com/comment-trouver-fichiers-volumineux-linux/) :
-
-```bash
-sudo du -a /home/ | sort -n | tail -10`
-```
+Le fichier source est : `ressources/ssh-log`
 
 ## Niveau 1
 
@@ -124,8 +118,13 @@ sudo du -a /home/ | sort -n | tail -10`
     - Objectif : Filtrer les lignes avec "Accepted password" et "Failed password", extraire l'heure, puis trier pour comparaison.
     - Commandes :
 
+## Bonus
 
-Ces exercices aideront vos étudiants à comprendre progressivement les concepts de base et avancés du traitement de texte sous Linux, essentiels pour la gestion de logs en administration système.
+[Comment trouver les fichiers volumineux sous Linux](https://www.malekal.com/comment-trouver-fichiers-volumineux-linux/) :
+
+```bash
+sudo du -a /home/ | sort -n | tail -10`
+```
 
 # Partie 4 : Projets de groupe
 
