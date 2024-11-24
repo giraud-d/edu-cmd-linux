@@ -57,14 +57,20 @@ cat ~/.ssh/id_rsa.pub | ssh user@serveur "mkdir -p ~/.ssh && cat >> ~/.ssh/autho
 ### Commandes de Base
 ```bash
 # Voir à qui appartient un fichier
-ls -l fichier
+ls -l file
 
 # Changer le propriétaire
-chown nouvel_utilisateur fichier
-chown utilisateur:groupe fichier
+chown user fichier
+chown utilisateur:group file
+
+# Créer un group
+addgroup new_group
+
+# Ajouter un utilisateur à un groupe
+usermod -a -G new_group user
 
 # Changer le groupe
-chgrp nouveau_groupe fichier
+chgrp new_group file
 ```
 
 ### Les Droits d'Accès

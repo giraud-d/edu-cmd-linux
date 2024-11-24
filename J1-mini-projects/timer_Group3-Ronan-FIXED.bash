@@ -21,16 +21,10 @@ echo "Temps écoulé : $HOURS heures : $MIN minutes : $SECONDS secondes"
 
 }
 
-function launch_timer()
 
-{
-        TIMER="$1"
+while :; do
+        sleep 1
+        mytimer
+done
 
-        for i in $(seq 1 $TIMER)
-        do
-                sleep 1
-                mytimer
-        done
-}
 
-launch_timer 60
